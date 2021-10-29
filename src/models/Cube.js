@@ -1,4 +1,4 @@
-const cubeService = require("../../services/cubeService");
+const cubeService = require("../services/cubeService");
 
 class Cube {
     constructor(name, description, imageUrl, difficulty) {
@@ -7,6 +7,9 @@ class Cube {
         this.imageUrl = imageUrl;
         this.difficulty = difficulty;
     }
+
+    
+    
 }
 
 

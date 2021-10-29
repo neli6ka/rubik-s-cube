@@ -2,7 +2,7 @@ const express = require('express');
 const cubeService = require('../services/cubeService');
 
 const router = express.Router();
-
+ 
 const getCreateCubePage = (req, res) => {
     let cubes = cubeService.getAll();
     console.log(cubes);
